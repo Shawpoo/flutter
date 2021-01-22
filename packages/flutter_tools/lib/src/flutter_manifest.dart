@@ -130,9 +130,9 @@ class FlutterManifest {
   ///
   /// If false the deprecated Android Support library will be used.
   bool get usesAndroidX {
-    if (_flutterDescriptor.containsKey('module')) {
-      return _flutterDescriptor['module']['androidX'] as bool;
-    }
+    // if (_flutterDescriptor.containsKey('module')) {
+    //   return _flutterDescriptor['module']['androidX'] as bool;
+    // }
     return false;
   }
 
